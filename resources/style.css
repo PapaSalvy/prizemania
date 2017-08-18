@@ -1,0 +1,76 @@
+body {
+  font-family: 'Raleway', sans-serif;
+  margin: 0px;
+}
+
+#top {
+  background-color: #65c4e2;
+  width: auto;
+  height: auto;
+  padding: 10px;
+  border: #65c4e2;
+}
+
+h1, h2 {
+  text-align: center;
+  color: white;
+}
+
+h1 {
+  font-size: 100px;
+  margin: 0px;
+  margin-top: 10px;
+}
+
+img {
+  height: 110px;
+  width: 110px;
+}
+
+#img_2 {
+  width: 100px;
+}
+
+#steps {
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+  border-bottom: 1px solid white;
+}
+
+#p_steps, #p_step_description {
+  color: white;
+}
+
+#bottom {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  background-color: #65c4e2;
+  width: auto;
+  height: auto;
+  padding: 10px;
+  border: #65c4e2;
+  border-top: 1px solid white;
+}
+
+#bottom h1 {
+  border-top: 1px solid white;
+  margin: 0px;
+
+}
+
+#comments {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  font-family: 'Merriweather', serif;
+  font-size: 18px;
+}
+
+#comment1 img, #comment2 img {
+  height: 60px;
+  width: 285px;
+  margin-left: 350px;
+}
