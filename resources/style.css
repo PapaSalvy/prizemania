@@ -1,7 +1,9 @@
 body {
   font-family: 'Raleway', sans-serif;
-  margin: auto;
   width: 100%;
+  margin: auto;
+  min-width: 600px;
+  max-width: 2000px;
 }
 
 #top {
@@ -44,23 +46,22 @@ img {
   color: white;
 }
 
-#bottom {
+footer {
+  display: flex;
+  flex-direction: column;
   position: absolute;
   bottom: 0;
-  right: 0;
-  left: 0;
+  width: 100%;
+  margin: auto;
+  min-width: 600px;
+  max-width: 2000px;
   background-color: #65c4e2;
-  width: auto;
-  height: auto;
-  padding: 10px;
   border: #65c4e2;
-  border-top: 1px solid white;
+  padding-top: 10px;
 }
 
-#bottom h1 {
+footer h1 {
   border-top: 1px solid white;
-  margin: 0px;
-
 }
 
 #comments {
