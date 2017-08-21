@@ -70,11 +70,16 @@ footer h1 {
   justify-content: space-around;
   font-family: 'Merriweather', serif;
   font-size: 18px;
+  width: auto;
+}
+
+#comment1, #comment2 {
+  width: auto;
 }
 
 #comment1 img, #comment2 img {
   height: 60px;
-  width: 285px;
+  width: auto;
   margin-left: 350px;
 }
 
